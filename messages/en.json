@@ -1,0 +1,99 @@
+{
+  "Header": {
+    "brand": "Premium Clinic"
+  },
+  "Hero": {
+    "badge": "4.9/5 on Google Reviews",
+    "title1": "Cutting-edge Dentistry,",
+    "title2": "Zero Anxiety.",
+    "description": "Restore the health and aesthetics of your smile with certified specialists, 3D technology, and pain-free protocols in an environment designed for your relaxation.",
+    "bullets": {
+      "b1": "3D Digital Diagnosis",
+      "b2": "Smile Design",
+      "b3": "Same-Day Implants",
+      "b4": "Emergency Care"
+    },
+    "form": {
+      "title": "Schedule Your Evaluation",
+      "subtitle": "Leave your details and we will contact you in less than 15 minutes.",
+      "name": "Full Name",
+      "name_ph": "E.g. John Doe",
+      "phone": "Phone Number",
+      "phone_ph": "+1 809...",
+      "email": "Email Address",
+      "email_ph": "you@email.com",
+      "service": "How can we help you?",
+      "service_ph": "Select a treatment...",
+      "opt_cleaning": "Cleaning & Prevention",
+      "opt_implants": "Dental Implants",
+      "opt_ortho": "Orthodontics (Invisalign / Braces)",
+      "opt_smile": "Smile Design (Veneers)",
+      "opt_whitening": "Teeth Whitening",
+      "opt_emergency": "Emergency / Severe Pain",
+      "opt_other": "Other (Please specify)",
+      "other_ph": "Briefly describe your situation...",
+      "btn_loading": "Processing...",
+      "btn_submit": "Request Appointment Now",
+      "security": "Your data is protected and encrypted."
+    }
+  },
+  "Trust": {
+    "t1_val": "15+",
+    "t1_lbl": "Years of Experience",
+    "t2_val": "5k+",
+    "t2_lbl": "Happy Patients",
+    "t3_val": "100%",
+    "t3_lbl": "Implant Guarantee",
+    "t4_val": "24/7",
+    "t4_lbl": "Emergency Care"
+  },
+  "Services": {
+    "badge": "Specialties",
+    "title": "Everything your smile needs",
+    "subtitle": "We offer comprehensive treatments in one place, supported by state-of-the-art technology for precise and fast results.",
+    "s1_title": "Dental Implants",
+    "s2_title": "Smile Design",
+    "s3_title": "Invisible Orthodontics",
+    "s4_title": "Laser Whitening",
+    "s5_title": "Pain-Free Root Canals",
+    "s6_title": "Pediatric Dentistry",
+    "desc": "Personalized treatments using the highest quality biocompatible materials to ensure durability and natural aesthetics."
+  },
+  "WhyUs": {
+    "badge": "Our Promise",
+    "title": "We change the way you go to the dentist.",
+    "b1_title": "Hospital-Grade Biosecurity",
+    "b1_desc": "Our sterilization protocols exceed international standards, guaranteeing a 100% safe environment.",
+    "b2_title": "Strict Punctuality",
+    "b2_desc": "Your time is valuable. We schedule with wide margins to ensure you enter the office exactly at your appointment time.",
+    "b3_title": "Premium Materials",
+    "b3_desc": "We only work with certified laboratories and globally recognized brands for implants and crowns."
+  },
+  "Testimonials": {
+    "title": "Real Stories, Real Smiles",
+    "subtitle": "Don't take our word for it, listen to those who have already transformed their smile.",
+    "r1_text": "\"All my life I was terrified of the dentist. Here they explained everything patiently, played music to relax me, and I felt absolutely no pain. Incredible.\"",
+    "r2_text": "\"I went for a smile design and the result exceeded my expectations. The 3D scanner lets you see how you will look before starting. A team of true professionals.\"",
+    "r3_text": "\"I had an emergency on a Sunday morning. They saw me quickly, saved my tooth, and the treatment was exceptional. They have gained a patient for life.\""
+  },
+  "CTA": {
+    "title": "Smile with confidence again",
+    "subtitle": "We are located in the heart of Bavaro, Punta Cana. Modern facilities, safe parking, and easy access.",
+    "location": "Estados Unidos Ave, Bavaro",
+    "btn": "Schedule My Appointment Today"
+  },
+  "Footer": {
+    "brand_desc": "Specialists in transforming lives through oral health and advanced dental aesthetics.",
+    "contact": "Contact",
+    "location": "Bavaro, Punta Cana, Dom. Rep.",
+    "hours": "Business Hours",
+    "h_week": "Monday - Friday: 8:00 AM - 7:00 PM",
+    "h_sat": "Saturdays: 9:00 AM - 2:00 PM",
+    "h_urg": "Emergencies: 24/7",
+    "rights": "All rights reserved.",
+    "dev": "Developed with ♥ by Pablo LGR"
+  },
+  "Alerts": {
+    "success": "Appointment requested successfully! Our team will call you shortly to confirm the time."
+  }
+}

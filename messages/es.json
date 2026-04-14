@@ -1,0 +1,99 @@
+{
+  "Header": {
+    "brand": "Clínica Premium"
+  },
+  "Hero": {
+    "badge": "4.9/5 en Reseñas de Google",
+    "title1": "Odontología de Vanguardia,",
+    "title2": "Sin Ansiedad.",
+    "description": "Recupera la salud y estética de tu sonrisa con especialistas certificados, tecnología 3D y protocolos de cero dolor en un ambiente diseñado para tu relajación.",
+    "bullets": {
+      "b1": "Diagnóstico Digital 3D",
+      "b2": "Diseño de Sonrisa",
+      "b3": "Implantes en 1 Día",
+      "b4": "Atención de Urgencias"
+    },
+    "form": {
+      "title": "Agenda tu Evaluación",
+      "subtitle": "Déjanos tus datos y te contactaremos en menos de 15 minutos.",
+      "name": "Nombre Completo",
+      "name_ph": "Ej. Juan Pérez",
+      "phone": "Teléfono",
+      "phone_ph": "+1 809...",
+      "email": "Correo",
+      "email_ph": "tu@correo.com",
+      "service": "¿En qué podemos ayudarte?",
+      "service_ph": "Selecciona un tratamiento...",
+      "opt_cleaning": "Limpieza y Prevención",
+      "opt_implants": "Implantes Dentales",
+      "opt_ortho": "Ortodoncia (Invisalign / Brackets)",
+      "opt_smile": "Diseño de Sonrisa (Carillas)",
+      "opt_whitening": "Blanqueamiento Dental",
+      "opt_emergency": "Emergencia / Dolor Fuerte",
+      "opt_other": "Otro (Especificar)",
+      "other_ph": "Escribe el motivo de tu consulta...",
+      "btn_loading": "Procesando...",
+      "btn_submit": "Solicitar Cita Ahora",
+      "security": "Tus datos están protegidos y encriptados."
+    }
+  },
+  "Trust": {
+    "t1_val": "+15",
+    "t1_lbl": "Años de Experiencia",
+    "t2_val": "+5k",
+    "t2_lbl": "Pacientes Felices",
+    "t3_val": "100%",
+    "t3_lbl": "Garantía en Implantes",
+    "t4_val": "24/7",
+    "t4_lbl": "Atención de Urgencias"
+  },
+  "Services": {
+    "badge": "Especialidades",
+    "title": "Todo lo que tu sonrisa necesita",
+    "subtitle": "Ofrecemos tratamientos integrales en un solo lugar, apoyados por tecnología de última generación para resultados precisos y rápidos.",
+    "s1_title": "Implantes Dentales",
+    "s2_title": "Diseño de Sonrisa",
+    "s3_title": "Ortodoncia Invisible",
+    "s4_title": "Blanqueamiento Láser",
+    "s5_title": "Endodoncia sin Dolor",
+    "s6_title": "Odontopediatría",
+    "desc": "Tratamientos personalizados utilizando materiales biocompatibles de la más alta calidad para asegurar durabilidad y estética natural."
+  },
+  "WhyUs": {
+    "badge": "Nuestra Promesa",
+    "title": "Cambiamos la forma en que vas al dentista.",
+    "b1_title": "Bioseguridad de Nivel Hospitalario",
+    "b1_desc": "Nuestros protocolos de esterilización superan los estándares internacionales, garantizando un entorno 100% seguro.",
+    "b2_title": "Puntualidad Estricta",
+    "b2_desc": "Tu tiempo vale. Agendamos con márgenes amplios para garantizar que pases al consultorio exactamente a la hora de tu cita.",
+    "b3_title": "Materiales Premium",
+    "b3_desc": "Solo trabajamos con laboratorios certificados y marcas globales reconocidas para implantes y coronas."
+  },
+  "Testimonials": {
+    "title": "Historias Reales, Sonrisas Reales",
+    "subtitle": "No tomes nuestra palabra, escucha a quienes ya transformaron su sonrisa.",
+    "r1_text": "\"Toda mi vida le tuve terror al dentista. Aquí me explicaron todo con paciencia, me pusieron música para relajarme y no sentí absolutamente nada de dolor. Increíble.\"",
+    "r2_text": "\"Fui por un diseño de sonrisa y el resultado superó mis expectativas. El escáner 3D te permite ver cómo quedarás antes de empezar. Un equipo de verdaderos profesionales.\"",
+    "r3_text": "\"Tuve una emergencia un domingo en la mañana. Me atendieron rápido, salvaron mi muela y el trato fue excepcional. Se han ganado una paciente de por vida.\""
+  },
+  "CTA": {
+    "title": "Vuelve a sonreír con confianza",
+    "subtitle": "Estamos ubicados en el corazón de Bávaro, Punta Cana. Instalaciones modernas, parqueo seguro y fácil acceso.",
+    "location": "Av. Estados Unidos, Bávaro",
+    "btn": "Agendar mi Cita Hoy"
+  },
+  "Footer": {
+    "brand_desc": "Especialistas en transformar vidas a través de la salud bucal y la estética dental avanzada.",
+    "contact": "Contacto",
+    "location": "Bávaro, Punta Cana, Rep. Dom.",
+    "hours": "Horario",
+    "h_week": "Lunes - Viernes: 8:00 AM - 7:00 PM",
+    "h_sat": "Sábados: 9:00 AM - 2:00 PM",
+    "h_urg": "Urgencias: 24/7",
+    "rights": "Todos los derechos reservados.",
+    "dev": "Desarrollado con ♥ por Pablo LGR"
+  },
+  "Alerts": {
+    "success": "¡Cita solicitada con éxito! Nuestro equipo te llamará en breve para confirmar la hora."
+  }
+}

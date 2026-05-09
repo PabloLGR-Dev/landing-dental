@@ -1,21 +1,28 @@
 {
+  "Nav": {
+    "services": "Servicios",
+    "process": "Proceso",
+    "testimonials": "Testimonios",
+    "book": "Agendar Cita"
+  },
   "Header": {
-    "brand": "Clínica Premium"
+    "brand": "PureSmile Dental"
   },
   "Hero": {
-    "badge": "4.9/5 en Reseñas de Google",
-    "title1": "Odontología de Vanguardia,",
+    "badge": "4.9/5 en Google · +500 reseñas verificadas",
+    "title1": "Odontología de Élite,",
     "title2": "Sin Ansiedad.",
     "description": "Recupera la salud y estética de tu sonrisa con especialistas certificados, tecnología 3D y protocolos de cero dolor en un ambiente diseñado para tu relajación.",
+    "learn_more": "Ver Servicios",
     "bullets": {
       "b1": "Diagnóstico Digital 3D",
       "b2": "Diseño de Sonrisa",
       "b3": "Implantes en 1 Día",
-      "b4": "Atención de Urgencias"
+      "b4": "Urgencias 24/7"
     },
     "form": {
       "title": "Agenda tu Evaluación",
-      "subtitle": "Déjanos tus datos y te contactaremos en menos de 15 minutos.",
+      "subtitle": "Déjanos tus datos y te contactamos en menos de 15 minutos.",
       "name": "Nombre Completo",
       "name_ph": "Ej. Juan Pérez",
       "phone": "Teléfono",
@@ -32,54 +39,69 @@
       "opt_emergency": "Emergencia / Dolor Fuerte",
       "opt_other": "Otro (Especificar)",
       "other_ph": "Escribe el motivo de tu consulta...",
-      "btn_loading": "Procesando...",
+      "btn_loading": "Enviando...",
       "btn_submit": "Solicitar Cita Ahora",
       "security": "Tus datos están protegidos y encriptados."
     }
   },
   "Trust": {
-    "t1_val": "+15",
     "t1_lbl": "Años de Experiencia",
-    "t2_val": "+5k",
     "t2_lbl": "Pacientes Felices",
-    "t3_val": "100%",
     "t3_lbl": "Garantía en Implantes",
-    "t4_val": "24/7",
     "t4_lbl": "Atención de Urgencias"
   },
   "Services": {
     "badge": "Especialidades",
     "title": "Todo lo que tu sonrisa necesita",
-    "subtitle": "Ofrecemos tratamientos integrales en un solo lugar, apoyados por tecnología de última generación para resultados precisos y rápidos.",
+    "subtitle": "Tratamientos integrales en un solo lugar, respaldados por tecnología de última generación para resultados precisos y duraderos.",
     "s1_title": "Implantes Dentales",
+    "s1_desc": "Restauración permanente con implantes de titanio integrados al hueso, igual de funcionales y estéticos que un diente natural.",
     "s2_title": "Diseño de Sonrisa",
+    "s2_desc": "Transformamos tu sonrisa con carillas de porcelana diseñadas digitalmente para lograr exactamente el resultado que imaginas.",
     "s3_title": "Ortodoncia Invisible",
+    "s3_desc": "Alineadores transparentes o brackets estéticos para corregir tu mordida con discreción y alta efectividad.",
     "s4_title": "Blanqueamiento Láser",
+    "s4_desc": "Aclaramos el tono de tus dientes en una sola sesión con tecnología láser de última generación, sin sensibilidad.",
     "s5_title": "Endodoncia sin Dolor",
+    "s5_desc": "Eliminamos la infección preservando el diente natural. Protocolo de anestesia multibloque para garantizar cero dolor.",
     "s6_title": "Odontopediatría",
-    "desc": "Tratamientos personalizados utilizando materiales biocompatibles de la más alta calidad para asegurar durabilidad y estética natural."
+    "s6_desc": "Cuidado dental especializado para los más pequeños en un ambiente cálido y divertido que elimina el miedo al dentista."
+  },
+  "Process": {
+    "badge": "Cómo Funciona",
+    "title": "Tu sonrisa perfecta en 3 pasos",
+    "subtitle": "Hemos simplificado cada etapa de tu tratamiento para que la experiencia sea lo más cómoda y transparente posible.",
+    "s1_title": "Evaluación Gratuita",
+    "s1_desc": "Agenda tu consulta sin compromiso. Realizamos un diagnóstico completo con imagen 3D y te presentamos todas las opciones disponibles.",
+    "s2_title": "Plan a tu Medida",
+    "s2_desc": "Diseñamos tu tratamiento con presupuesto detallado, opciones de financiamiento y cronograma claro desde el primer día.",
+    "s3_title": "Sonrisa Transformada",
+    "s3_desc": "Disfruta tu nueva sonrisa con seguimiento post-tratamiento incluido y garantía en todos nuestros procedimientos."
   },
   "WhyUs": {
     "badge": "Nuestra Promesa",
     "title": "Cambiamos la forma en que vas al dentista.",
+    "card_title": "Excelencia Certificada",
+    "card_desc": "Protocolos ISO y materiales de primer nivel global",
     "b1_title": "Bioseguridad de Nivel Hospitalario",
-    "b1_desc": "Nuestros protocolos de esterilización superan los estándares internacionales, garantizando un entorno 100% seguro.",
+    "b1_desc": "Nuestros protocolos de esterilización superan los estándares internacionales, garantizando un entorno 100% seguro para ti y tu familia.",
     "b2_title": "Puntualidad Estricta",
     "b2_desc": "Tu tiempo vale. Agendamos con márgenes amplios para garantizar que pases al consultorio exactamente a la hora de tu cita.",
-    "b3_title": "Materiales Premium",
-    "b3_desc": "Solo trabajamos con laboratorios certificados y marcas globales reconocidas para implantes y coronas."
+    "b3_title": "Materiales de Clase Mundial",
+    "b3_desc": "Solo trabajamos con laboratorios certificados y marcas globales reconocidas para implantes, coronas y alineadores."
   },
   "Testimonials": {
+    "badge": "Testimonios",
     "title": "Historias Reales, Sonrisas Reales",
-    "subtitle": "No tomes nuestra palabra, escucha a quienes ya transformaron su sonrisa.",
-    "r1_text": "\"Toda mi vida le tuve terror al dentista. Aquí me explicaron todo con paciencia, me pusieron música para relajarme y no sentí absolutamente nada de dolor. Increíble.\"",
-    "r2_text": "\"Fui por un diseño de sonrisa y el resultado superó mis expectativas. El escáner 3D te permite ver cómo quedarás antes de empezar. Un equipo de verdaderos profesionales.\"",
-    "r3_text": "\"Tuve una emergencia un domingo en la mañana. Me atendieron rápido, salvaron mi muela y el trato fue excepcional. Se han ganado una paciente de por vida.\""
+    "subtitle": "No tomes nuestra palabra. Escucha a quienes ya transformaron su sonrisa con nosotros.",
+    "r1_text": "Toda mi vida le tuve terror al dentista. Aquí me explicaron todo con paciencia, me pusieron música para relajarme y no sentí absolutamente nada de dolor. Increíble experiencia.",
+    "r2_text": "Fui por un diseño de sonrisa y el resultado superó mis expectativas. El escáner 3D te permite ver cómo quedarás antes de comenzar. Un equipo de verdaderos profesionales.",
+    "r3_text": "Tuve una emergencia un domingo en la mañana. Me atendieron rápido, salvaron mi muela y el trato fue excepcional. Se han ganado una paciente de por vida."
   },
   "CTA": {
     "title": "Vuelve a sonreír con confianza",
-    "subtitle": "Estamos ubicados en el corazón de Bávaro, Punta Cana. Instalaciones modernas, parqueo seguro y fácil acceso.",
-    "location": "Av. Estados Unidos, Bávaro",
+    "subtitle": "Instalaciones modernas en el corazón de Bávaro, Punta Cana. Parqueo seguro, fácil acceso y horarios flexibles.",
+    "location": "Av. Estados Unidos, Bávaro, Punta Cana",
     "btn": "Agendar mi Cita Hoy"
   },
   "Footer": {
@@ -87,9 +109,9 @@
     "contact": "Contacto",
     "location": "Bávaro, Punta Cana, Rep. Dom.",
     "hours": "Horario",
-    "h_week": "Lunes - Viernes: 8:00 AM - 7:00 PM",
-    "h_sat": "Sábados: 9:00 AM - 2:00 PM",
-    "h_urg": "Urgencias: 24/7",
+    "h_week": "Lun – Vie: 8:00 AM – 7:00 PM",
+    "h_sat": "Sábados: 9:00 AM – 2:00 PM",
+    "h_urg": "Urgencias: 24 / 7",
     "rights": "Todos los derechos reservados.",
     "dev": "Desarrollado con ♥ por Pablo LGR"
   },

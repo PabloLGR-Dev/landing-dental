@@ -1,21 +1,28 @@
 {
+  "Nav": {
+    "services": "Services",
+    "process": "Process",
+    "testimonials": "Reviews",
+    "book": "Book Appointment"
+  },
   "Header": {
-    "brand": "Premium Clinic"
+    "brand": "PureSmile Dental"
   },
   "Hero": {
-    "badge": "4.9/5 on Google Reviews",
-    "title1": "Cutting-edge Dentistry,",
+    "badge": "4.9/5 on Google · 500+ verified reviews",
+    "title1": "Elite Dentistry,",
     "title2": "Zero Anxiety.",
-    "description": "Restore the health and aesthetics of your smile with certified specialists, 3D technology, and pain-free protocols in an environment designed for your relaxation.",
+    "description": "Restore the health and beauty of your smile with certified specialists, 3D technology, and pain-free protocols in an environment designed for your comfort.",
+    "learn_more": "Explore Services",
     "bullets": {
       "b1": "3D Digital Diagnosis",
       "b2": "Smile Design",
       "b3": "Same-Day Implants",
-      "b4": "Emergency Care"
+      "b4": "24/7 Emergency Care"
     },
     "form": {
       "title": "Schedule Your Evaluation",
-      "subtitle": "Leave your details and we will contact you in less than 15 minutes.",
+      "subtitle": "Leave your details and we'll contact you within 15 minutes.",
       "name": "Full Name",
       "name_ph": "E.g. John Doe",
       "phone": "Phone Number",
@@ -31,55 +38,70 @@
       "opt_whitening": "Teeth Whitening",
       "opt_emergency": "Emergency / Severe Pain",
       "opt_other": "Other (Please specify)",
-      "other_ph": "Briefly describe your situation...",
-      "btn_loading": "Processing...",
+      "other_ph": "Briefly describe your concern...",
+      "btn_loading": "Sending...",
       "btn_submit": "Request Appointment Now",
       "security": "Your data is protected and encrypted."
     }
   },
   "Trust": {
-    "t1_val": "15+",
     "t1_lbl": "Years of Experience",
-    "t2_val": "5k+",
     "t2_lbl": "Happy Patients",
-    "t3_val": "100%",
     "t3_lbl": "Implant Guarantee",
-    "t4_val": "24/7",
     "t4_lbl": "Emergency Care"
   },
   "Services": {
     "badge": "Specialties",
     "title": "Everything your smile needs",
-    "subtitle": "We offer comprehensive treatments in one place, supported by state-of-the-art technology for precise and fast results.",
+    "subtitle": "Comprehensive treatments under one roof, backed by state-of-the-art technology for precise and long-lasting results.",
     "s1_title": "Dental Implants",
+    "s1_desc": "Permanent restoration with titanium implants integrated into the bone — as functional and aesthetic as a natural tooth.",
     "s2_title": "Smile Design",
+    "s2_desc": "We transform your smile with digitally designed porcelain veneers to achieve exactly the result you envision.",
     "s3_title": "Invisible Orthodontics",
+    "s3_desc": "Clear aligners or aesthetic braces to correct your bite discreetly and with high effectiveness.",
     "s4_title": "Laser Whitening",
+    "s4_desc": "We brighten your teeth in a single session using the latest laser technology, with no sensitivity.",
     "s5_title": "Pain-Free Root Canals",
+    "s5_desc": "We eliminate infection while preserving the natural tooth. Multi-block anesthesia protocol to guarantee zero pain.",
     "s6_title": "Pediatric Dentistry",
-    "desc": "Personalized treatments using the highest quality biocompatible materials to ensure durability and natural aesthetics."
+    "s6_desc": "Specialized dental care for children in a warm, fun environment designed to eliminate fear of the dentist."
+  },
+  "Process": {
+    "badge": "How It Works",
+    "title": "Your perfect smile in 3 steps",
+    "subtitle": "We've simplified every stage of your treatment so the experience is as comfortable and transparent as possible.",
+    "s1_title": "Free Evaluation",
+    "s1_desc": "Schedule your no-commitment consultation. We perform a complete 3D imaging diagnosis and walk you through all available options.",
+    "s2_title": "Your Custom Plan",
+    "s2_desc": "We design your treatment with a detailed quote, financing options, and a clear timeline from day one.",
+    "s3_title": "Transformed Smile",
+    "s3_desc": "Enjoy your new smile with included post-treatment follow-up and a guarantee on all our procedures."
   },
   "WhyUs": {
     "badge": "Our Promise",
     "title": "We change the way you go to the dentist.",
+    "card_title": "Certified Excellence",
+    "card_desc": "ISO protocols and world-class materials",
     "b1_title": "Hospital-Grade Biosecurity",
-    "b1_desc": "Our sterilization protocols exceed international standards, guaranteeing a 100% safe environment.",
+    "b1_desc": "Our sterilization protocols exceed international standards, guaranteeing a 100% safe environment for you and your family.",
     "b2_title": "Strict Punctuality",
-    "b2_desc": "Your time is valuable. We schedule with wide margins to ensure you enter the office exactly at your appointment time.",
-    "b3_title": "Premium Materials",
-    "b3_desc": "We only work with certified laboratories and globally recognized brands for implants and crowns."
+    "b2_desc": "Your time is valuable. We schedule with ample margins to ensure you enter the office exactly at your appointment time.",
+    "b3_title": "World-Class Materials",
+    "b3_desc": "We only work with certified laboratories and globally recognized brands for implants, crowns, and aligners."
   },
   "Testimonials": {
+    "badge": "Testimonials",
     "title": "Real Stories, Real Smiles",
-    "subtitle": "Don't take our word for it, listen to those who have already transformed their smile.",
-    "r1_text": "\"All my life I was terrified of the dentist. Here they explained everything patiently, played music to relax me, and I felt absolutely no pain. Incredible.\"",
-    "r2_text": "\"I went for a smile design and the result exceeded my expectations. The 3D scanner lets you see how you will look before starting. A team of true professionals.\"",
-    "r3_text": "\"I had an emergency on a Sunday morning. They saw me quickly, saved my tooth, and the treatment was exceptional. They have gained a patient for life.\""
+    "subtitle": "Don't take our word for it. Hear from those who have already transformed their smiles with us.",
+    "r1_text": "I had been afraid of the dentist my whole life. Here they explained everything patiently, played music to relax me, and I felt absolutely no pain. An incredible experience.",
+    "r2_text": "I came for a smile design and the result exceeded my expectations. The 3D scanner lets you see how you'll look before you start. A team of true professionals.",
+    "r3_text": "I had an emergency on a Sunday morning. They saw me quickly, saved my tooth, and the care was exceptional. They have earned a patient for life."
   },
   "CTA": {
     "title": "Smile with confidence again",
-    "subtitle": "We are located in the heart of Bavaro, Punta Cana. Modern facilities, safe parking, and easy access.",
-    "location": "Estados Unidos Ave, Bavaro",
+    "subtitle": "Modern facilities in the heart of Bavaro, Punta Cana. Safe parking, easy access, and flexible hours.",
+    "location": "Estados Unidos Ave, Bavaro, Punta Cana",
     "btn": "Schedule My Appointment Today"
   },
   "Footer": {
@@ -87,9 +109,9 @@
     "contact": "Contact",
     "location": "Bavaro, Punta Cana, Dom. Rep.",
     "hours": "Business Hours",
-    "h_week": "Monday - Friday: 8:00 AM - 7:00 PM",
-    "h_sat": "Saturdays: 9:00 AM - 2:00 PM",
-    "h_urg": "Emergencies: 24/7",
+    "h_week": "Mon – Fri: 8:00 AM – 7:00 PM",
+    "h_sat": "Saturdays: 9:00 AM – 2:00 PM",
+    "h_urg": "Emergencies: 24 / 7",
     "rights": "All rights reserved.",
     "dev": "Developed with ♥ by Pablo LGR"
   },

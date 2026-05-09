@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../globals.css"; 
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import "../globals.css";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,25 +15,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Clínica Dental Premium",
-  description: "Tu Mejor Sonrisa, Sin Dolor y Sin Miedo.",
+  title: "PureSmile Dental — Elite Dentistry, Zero Anxiety",
+  description:
+    "Restore the health and beauty of your smile with certified specialists, 3D technology, and pain-free protocols in Bavaro, Punta Cana.",
 };
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
-  params: any; // <-- Usamos 'any' para evitar el conflicto del validador de Next.js 15
+  params: any;
 }) {
-  
-  const resolvedParams = await params;
-  const locale = resolvedParams.locale;
-
+  const { locale } = await params;
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+    <html
+      lang={locale}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider messages={messages}>
           {children}

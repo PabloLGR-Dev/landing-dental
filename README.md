@@ -1,16 +1,17 @@
-# Dental Clinic Landing Page
+# PureSmile Dental — Landing Page
 
-A high-converting, production-ready landing page for dental clinics built with Next.js 16. Features a bilingual UI, an appointment booking form with server-side validation, bot protection, and rate limiting — all backed by Supabase and Upstash Redis.
+A high-converting, production-ready landing page for **PureSmile Dental** built with Next.js 16. Features a bilingual UI (ES/EN), professional scroll animations, an appointment booking form with server-side validation, bot protection, and rate limiting — all backed by Supabase and Upstash Redis.
 
 ## Features
 
-- **Bilingual (ES / EN)** — locale-aware routing via `next-intl`; users can switch languages without a page reload
+- **Bilingual (ES / EN)** — locale-aware routing via `next-intl`; users switch languages without a page reload
+- **Professional animations** — scroll-triggered reveals (`IntersectionObserver`), animated stat counters (RAF + cubic easing), floating blobs, shimmer headline
 - **Appointment booking** — server action with Zod schema validation and direct Supabase insert
 - **Bot protection** — honeypot hidden field silently discards automated submissions
-- **Rate limiting** — sliding-window rate limiter (3 requests / minute per IP) powered by Upstash Redis
-- **Responsive design** — mobile-first layout built with Tailwind CSS v4
+- **Rate limiting** — sliding-window limiter (3 requests / minute per IP) powered by Upstash Redis
+- **Fully responsive** — mobile-first layout with a collapsible nav, built with Tailwind CSS v4
+- **Logo with fallback** — loads `public/images/logo.png`; falls back to an inline SVG if the file is absent
 - **UI components** — shadcn/ui primitives (Button, Input) with Radix UI under the hood
-- **Optimized images** — Next.js `<Image>` with priority loading for the hero section
 
 ## Tech Stack
 
@@ -28,20 +29,26 @@ A high-converting, production-ready landing page for dental clinics built with N
 ## Project Structure
 
 ```
+messages/
+├── es.json                  # Spanish translations
+└── en.json                  # English translations
+public/
+└── images/
+    └── logo.png             # Clinic logo (replace with your own)
 src/
 ├── app/
 │   ├── [locale]/
 │   │   ├── layout.tsx       # Root layout with locale provider
-│   │   └── page.tsx         # Main landing page (all sections)
+│   │   └── page.tsx         # Main landing page (all sections + animations)
 │   └── actions.ts           # Server action: appointment booking
 ├── components/
-│   └── ui/                  # shadcn/ui components
+│   └── ui/                  # shadcn/ui components (Button, Input)
 ├── i18n/
-│   ├── routing.ts           # Locale routing config
+│   ├── routing.ts           # Locale routing config (locales, defaultLocale)
 │   └── request.ts           # next-intl server request config
 └── lib/
     ├── supabase.ts          # Supabase client
-    └── utils.ts             # Shared utilities (cn helper)
+    └── utils.ts             # cn() helper
 ```
 
 ## Getting Started
@@ -107,7 +114,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 Supported locales: **`es`** (default) and **`en`**.
 
-Translation files live under `src/i18n/`. To add a new locale, add it to the `locales` array in [src/i18n/routing.ts](src/i18n/routing.ts) and provide a matching messages file.
+Translation files live in the [`messages/`](messages/) directory at the project root. To add a new locale, add it to the `locales` array in [src/i18n/routing.ts](src/i18n/routing.ts) and create a matching `messages/<locale>.json` file.
 
 ## Security
 

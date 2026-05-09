@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dental Clinic Landing Page
+
+A high-converting, production-ready landing page for dental clinics built with Next.js 16. Features a bilingual UI, an appointment booking form with server-side validation, bot protection, and rate limiting — all backed by Supabase and Upstash Redis.
+
+## Features
+
+- **Bilingual (ES / EN)** — locale-aware routing via `next-intl`; users can switch languages without a page reload
+- **Appointment booking** — server action with Zod schema validation and direct Supabase insert
+- **Bot protection** — honeypot hidden field silently discards automated submissions
+- **Rate limiting** — sliding-window rate limiter (3 requests / minute per IP) powered by Upstash Redis
+- **Responsive design** — mobile-first layout built with Tailwind CSS v4
+- **UI components** — shadcn/ui primitives (Button, Input) with Radix UI under the hood
+- **Optimized images** — Next.js `<Image>` with priority loading for the hero section
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript 5 |
+| Styling | Tailwind CSS v4 |
+| UI Components | shadcn/ui · Radix UI · Lucide React |
+| Internationalization | next-intl 4 |
+| Database | Supabase (PostgreSQL) |
+| Rate Limiting | Upstash Redis |
+| Validation | Zod 4 |
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── [locale]/
+│   │   ├── layout.tsx       # Root layout with locale provider
+│   │   └── page.tsx         # Main landing page (all sections)
+│   └── actions.ts           # Server action: appointment booking
+├── components/
+│   └── ui/                  # shadcn/ui components
+├── i18n/
+│   ├── routing.ts           # Locale routing config
+│   └── request.ts           # next-intl server request config
+└── lib/
+    ├── supabase.ts          # Supabase client
+    └── utils.ts             # Shared utilities (cn helper)
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- A [Supabase](https://supabase.com) project
+- An [Upstash](https://upstash.com) Redis database
+
+### Installation
+
+```bash
+git clone <repo-url>
+cd landing-dental
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file at the project root:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+UPSTASH_REDIS_REST_URL=your_upstash_redis_url
+UPSTASH_REDIS_REST_TOKEN=your_upstash_redis_token
+```
+
+### Supabase Table
+
+Run the following SQL in your Supabase SQL editor to create the appointments table:
+
+```sql
+create table pacientes (
+  id uuid primary key default gen_random_uuid(),
+  nombre text not null,
+  email text not null,
+  telefono text not null,
+  servicio text not null,
+  created_at timestamptz default now()
+);
+```
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start the production server |
+| `npm run lint` | Run ESLint |
 
-## Learn More
+## Internationalization
 
-To learn more about Next.js, take a look at the following resources:
+Supported locales: **`es`** (default) and **`en`**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Translation files live under `src/i18n/`. To add a new locale, add it to the `locales` array in [src/i18n/routing.ts](src/i18n/routing.ts) and provide a matching messages file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Security
 
-## Deploy on Vercel
+- **Honeypot field** — a hidden `direccion_postal` input traps bots; any submission with it filled in is silently accepted but not persisted.
+- **Rate limiting** — Upstash sliding-window limiter caps submissions at 3 per minute per IP address.
+- **Input validation** — all form fields are parsed through a strict Zod schema before hitting the database.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy is with [Vercel](https://vercel.com). Connect your repository, add the environment variables above in the Vercel dashboard, and deploy.
+
+```bash
+# Or build locally for any Node-compatible host
+npm run build
+npm run start
+```
+
+## License
+
+MIT
